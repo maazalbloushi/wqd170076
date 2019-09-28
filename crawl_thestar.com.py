@@ -14,7 +14,7 @@ class Appcrawler:
         self.starting_url = starting_url
 
 
-    '''[summary]
+    '''[info]
     # * This is a caller 
     Returns:
         [type] -- [description]
@@ -26,7 +26,7 @@ class Appcrawler:
         return crawler_main_cats
 
 
-    '''[summary]
+    '''[info]
     # * extracts main catagories from link put it in the root of a dictionary
     Returns:
         [type] -- [description]
