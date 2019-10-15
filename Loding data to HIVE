@@ -1,0 +1,14 @@
+Creating the table on HIVE 
+
+
+hive> CREATE TABLE Sime (epoch int, close decimal, open decimal, high decimal, low decimal, volume decimal, datestamp string ) row format delimited fields terminated by ',';
+
+
+Loading data to hive 
+
+hive>  LOAD DATA LOCAL INPATH ‘C:/Sime.csv' OVERWRITE INTO TABLE Sime;
+
+
+Testing and confirmation
+
+hive> SELECT * FROM Sime;
